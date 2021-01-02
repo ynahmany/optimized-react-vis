@@ -2,7 +2,8 @@
   "name": "optimized-react-vis",
   "version": "1.0.0",
   "description": "Optimized react graph vis.js component",
-  "main": "src/index.tsx",
+  "main": "build/dist/index.js",
+  "typings": "build/dist/index.d.ts",
   "directories": {
     "example": "example"
   },
@@ -32,8 +33,8 @@
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "tslib": "^2.0.3",
     "typescript": "^4.1.3",
+    "use-immer": "^0.4.2",
     "vis-network": "^8.5.6"
   },
   "devDependencies": {
