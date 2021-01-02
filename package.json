@@ -7,7 +7,8 @@
     "example": "example"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,15 @@
   "bugs": {
     "url": "https://github.com/ynahmany/optimized-react-vis/issues"
   },
-  "homepage": "https://github.com/ynahmany/optimized-react-vis#readme"
+  "homepage": "https://github.com/ynahmany/optimized-react-vis#readme",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "tslib": "^2.0.3",
+    "typescript": "^4.1.3",
+    "vis-network": "^8.5.6"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0"
+  }
 }

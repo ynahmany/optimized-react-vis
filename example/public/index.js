@@ -2139,6 +2139,11 @@
 	  module.exports = react_development;
 	}
 	});
+	var react_1 = react.Component;
+	var react_2 = react.PureComponent;
+	var react_3 = react.Fragment;
+	var react_4 = react.Children;
+	var react_5 = react.createElement;
 
 	var scheduler_development = createCommonjsModule(function (module, exports) {
 
@@ -28395,8 +28400,15 @@
 	}
 	});
 
+	var OptimizedGraph = function OptimizedGraph(_a) {
+	  var name = _a.name;
+	  return /*#__PURE__*/react_5("div", null, "testing for lib changes: ", name);
+	};
+
 	function App() {
-	  return /*#__PURE__*/react.createElement("p", null, "Rollup + TypeScript + React = \u2764\uFE0F");
+	  return /*#__PURE__*/react_5(OptimizedGraph, {
+	    name: ' John '
+	  });
 	}
 
 	reactDom.render( /*#__PURE__*/react.createElement(App, null), document.getElementById('app'));
