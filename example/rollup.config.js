@@ -26,6 +26,9 @@ export default {
     }),
     commonjs({
       include: /node_modules/,
+      namedExports: {
+        'node_modules/react/index.js': ['Component', 'PureComponent', 'Fragment', 'Children', 'createElement']
+      }
     }),
     babel({
       extensions,
@@ -54,7 +57,7 @@ export default {
     }),
     html({
       fileName: 'index.html',
-      title: 'Rollup + TypeScript + React = ❤️',
+      title: 'Optimized React VisJS component',
       template: ({ title }) => {
         return `
 <!DOCTYPE html>

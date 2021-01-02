@@ -1,0 +1,42 @@
+{
+  "name": "optimized-react-vis",
+  "version": "1.0.0",
+  "description": "Optimized react graph vis.js component",
+  "main": "src/index.tsx",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ynahmany/optimized-react-vis.git"
+  },
+  "keywords": [
+    "react",
+    "graph",
+    "graph-vis",
+    "vis",
+    "visjs",
+    "vis-js",
+    "vis-ts"
+  ],
+  "author": "Yohay Nahmany",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ynahmany/optimized-react-vis/issues"
+  },
+  "homepage": "https://github.com/ynahmany/optimized-react-vis#readme",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "tslib": "^2.0.3",
+    "typescript": "^4.1.3",
+    "vis-network": "^8.5.6"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0"
+  }
+}

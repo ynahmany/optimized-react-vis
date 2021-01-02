@@ -1,7 +1,8 @@
-import React from 'react';
+import * as React from 'react';
+import OptimizedGraph from '../build/dist';
 
 import './app.scss';
 
 export default function App() {
-  return <p>Rollup + TypeScript + React = ❤️</p>;
+  return <OptimizedGraph name={' John '}/>;
 }
