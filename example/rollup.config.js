@@ -78,7 +78,7 @@ export default {
     (isProd && terser()),
     (!isProd && serve({
       host: 'localhost',
-      port: 3000,
+      port: 1337,
       open: true,
       contentBase: ['public'],
     })),
